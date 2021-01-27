@@ -19,4 +19,4 @@ app.get('/', (req, res) => {
 app.use('/dinos', require('./routes/dinos'));
 
 // Listen
-app.listen(8000, () => console.log('🧚‍♂️ Hey! Listen! 🧚‍♀️'));
+app.listen(3000, () => console.log('Listening on Port 3000'));

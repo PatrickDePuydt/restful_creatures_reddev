@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
     let dinoData = JSON.parse(dinos)
     console.log(dinoData);
 
-    res.render('dinos/index', { dinos: dinoData });
+    res.ren\der('dinos/index', { dinos: dinoData });
 });
 
 // New — /dinos/new
